@@ -106,3 +106,9 @@ a.ex:active {
 .ex:link {
   text-decoration: none;
 }
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    font-size: 30px;
+  }
