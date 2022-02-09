@@ -106,8 +106,23 @@ a.ex:active {
 .ex:link {
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  div.nav {
+    background-color: rgb(240, 13, 13);
+    width: 100%;
+    display: inline-block;
+  }
+  div.yes {
+    display: inline-block;
+  }
+}
+@media (min-width: 1000px) {
+  div.nav {
+    font-size: 80px;
+    background-color: rgb(75, 154, 92);
+    
+  }
 }
 
-@media screen and (max-width: 600px) {
-  
-  }
+
