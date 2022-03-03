@@ -3,7 +3,6 @@ body {
   background-repeat: round;
   background-attachment: fixed;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -17,10 +16,13 @@ a {
 p {
   color: white;
 }
-
+.slm {
+  border-radius: 50%;
+  color: aqua;
+  background-color: burlywood;
+}
 .img {
   background-repeat: no-repeat;
-  background-size: 10%;
 }
 .nav {
   border: 2px solid #cd9575;
@@ -99,12 +101,12 @@ p {
 }
 a.ex:hover,
 a.ex:active {
-  text-decoration: underline;
   font-size: 22px;
 }
 
 .ex:link {
   text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 600px) {
@@ -124,5 +126,3 @@ a.ex:active {
     
   }
 }
-
-
