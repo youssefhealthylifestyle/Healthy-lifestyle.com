@@ -1,128 +1,43 @@
-body {
-  background-image: url(wow.jpg);
-  background-repeat: round;
-  background-attachment: fixed;
-}
 * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana",sans-serif;
+  color: rgb(224, 221, 36);
   margin: 0;
-  padding: 0;
-}
-
-a {
-  color: white;
-  font-family: courier;
-}
-
-p {
-  color: white;
-}
-.slm {
-  border-radius: 50%;
-  color: aqua;
-  background-color: burlywood;
-}
-.img {
-  background-repeat: no-repeat;
-}
-.nav {
-  border: 2px solid #cd9575;
+  background-image:url(https://imgs.search.brave.com/SW_CBAguODpmD43yrpPeJ5s9PTLS-86GVF33phJiCpA/rs:fit:736:414:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC8yNC85Yy9mMC8y/NDljZjA0MDQ3Y2Ux/NDQyMjc0YzMxZDky/YjVlMTNmYS5qcGc) ;
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-flow: row wrap;
-  height: 80px;
-  background-color: rgb(211, 51, 51);
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+
+
+
+
 }
-.yes {
-  color: aqua;
+h1{
+  font-weight:normal ;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+.countdown-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+.count-down-el {
   text-align: center;
-  flex: 0 1 29%;
-  padding: 25px;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 102px;
-  height: 50px;
-  padding: 10px;
-  font-size: 16px;
-  background-color: #ff7900;
-  border: 1px solid #cd9575;
-  text-align: center;
-}
-
-.div1 {
-  float: left;
-  width: 49%;
-  height: 400px;
-  color: #cd9575;
-  border: 2px solid #cd9575;
-}
-
-.div2 {
-  float: left;
-}
-.div3 {
-  float: left;
-}
-
-.div4 {
-  float: left;
-}
-
-.sleep {
-  border: 2px solid orange;
-  color: #fffdd0;
-  font-size: 18px;
-}
-
-.cut {
-  background-image: url(cut.jpg);
-  width: 63%;
-  height: 450px;
-  margin-left: 270px;
-}
-
-.footer {
-  width: 100%;
-  height: 190px;
-  background: #1b1b1b;
-  color: white;
-}
-.ex:hover {
-  background-color: #ff9966;
-  font-size: 18px;
-  font-family: monospace;
-}
-a.ex:hover,
-a.ex:active {
-  font-size: 22px;
-}
-
-.ex:link {
-  text-decoration: none;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-@media (max-width: 600px) {
-  div.nav {
-    background-color: rgb(240, 13, 13);
-    width: 100%;
-    display: inline-block;
-  }
-  div.yes {
-    display: inline-block;
-  }
-}
-@media (min-width: 1000px) {
-  div.nav {
-    font-size: 80px;
-    background-color: rgb(75, 154, 92);
-    
-  }
+.count-down-el span{
+  font-size: 1.3rem;
 }
